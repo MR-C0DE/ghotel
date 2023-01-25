@@ -17,7 +17,7 @@ app.use(json());
 
 
 //Creation d'une route de testing
-app.route('/database')
+app.route('/data')
     .get((request, response)=>{
         HttpRequest.getFetch({req:request, res:response});
     })

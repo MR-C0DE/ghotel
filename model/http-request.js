@@ -2,7 +2,7 @@ import fetch from 'node-fetch';
 
 export class HttpRequest {
     static getFetch(param){
-        const url = 'http://localhost:4000/test';
+        const url = 'http://localhost:4000/get/contenu';
 
         fetch(url)
         .then(response => response.json())
